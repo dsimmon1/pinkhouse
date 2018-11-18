@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<title>Pink House Productions</title>
+	<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body>
+	<div class="content-wrapper">
+<div class="main-content">
+	<img src="PinkHouse.png">
+</div>
+<div class="footer">
+	<div class="pink-house">
+	<p class="logo">Pink House</p>
+	<ul>
+		<a href="https://www.instagram.com/pinkhousepro/">
+		<li><i class="fab fa-instagram"></i> Instagram</li></a>
+		<br><br>
+		<div class="inquiries">
+		<li>For Inquiries and Bookings</li>
+		<li><a href="mailto:pinkhousepro@gmail.com?subject=I%20want%20to%20book">pinkhousepro@gmail.com</a></li>
+		<li>(213) 712-2639</li>
+		</div>
+	</ul>
+	</div>
+
+	<div class="c&g">
+		<p class="header">Claude the Gawd & Von G_Zus</p>
+		<ul>
+			<a href="https://www.instagram.com/claudeandvon/">
+			<li><i class="fab fa-instagram"></i> Instagram</li></a>
+		</ul>
+	</div>
+
+	<div class="peace-gang">
+		<p class="header">Peace Gang</p>
+		<ul>
+			
+			<a href="https://www.instagram.com/peacexgang/">
+			<li><i class="fab fa-instagram"></i> Instagram</li></a>
+			<a href="https://open.spotify.com/artist/1FMZWjDTmWDe3PpRQMgDfA">
+			<li> <i class="fab fa-spotify"></i> Spotify</li></a>
+		</ul>
+	</div>
+
+	<div class="franx">
+		<p class="header">Franx</p>
+		<ul>
+			<a href="https://www.instagram.com/officialfranx/">
+			<li><i class="fab fa-instagram"></i> Instagram</li></a>
+			<a href="https://open.spotify.com/artist/1UIpMGZGqOs8ZuuSWoXKIa">
+			<li><i class="fab fa-spotify"></i> Spotify</li></a>
+		</ul>
+	</div>
+
+</div>
+</div>
+
+</body>
+</html>
+
+<style type="text/css">
+
+	.franx li, .peace-gang li {
+		margin-bottom: 1em;
+	}
+	.inquiries li {
+		margin-bottom: 1em;
+	}
+
+	ul {
+		list-style: none;
+		padding: 0;
+	}
+	
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Questrial', sans-serif;
+}
+
+body, html {
+	height: 100%;
+}
+
+.content-wrapper {
+height: 100%;
+}
+
+	img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color: #eb7aa8; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+.header {
+	color: #eb7aa8; 
+}
+
+.logo {
+	font-size: 45px;
+  color: #fff;
+    margin: 0;
+  -webkit-animation: logo 1s ease-in-out infinite alternate;
+  -moz-animation: logo 1s ease-in-out infinite alternate;
+  animation: logo 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes logo {
+  from {
+     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+  p {
+  	font-size: 25px;
+  }
+
+  li {
+  	font-size: 15px;
+  }
+  @media screen and (min-width: 1025px) {
+	.content-wrapper {
+		display: grid;
+		grid-template-columns: 1fr 2fr;
+	}
+	  .main-content {
+    align-self: center;
+}
+  }
+
+  @media screen and (max-width: 1024px) {
+  	.footer {
+  		margin: 0 3em;
+  	}
+
+  	.pink-house {
+  		justify-self: center;
+  	}
+
+  }
+
+  @media screen and (min-width: 600px) {
+	.footer {
+		display: grid;
+		grid-template-columns: 40% 1fr 1fr 1fr;
+		grid-column-gap: 5px;
+		align-items: center;
+	}
+  }
+
+  @media screen and (max-width: 599px) {
+  	body {
+  		text-align: center;
+  	}
+
+  	ul {
+  		margin-bottom: 5em;
+  	}
+  }
+
+</style>
+
+<script type="text/javascript">
+	let resturants = "Larry's "
+
+	for (let i = 0; i < 8; i++) { 
+    	let newResturant = resturants + i;
+    	console.log(newResturant);
+		}
+
+	for (let a = 1; a <100; a++) {
+		let numbersArray = a;
+		if (numbersArray % 5 === 0 && numbersArray % 3 === 0)  {
+			numbersArray = "FizzBuzz";
+		}
+		else if (numbersArray % 3 === 0) {
+			numbersArray = "Fizz";
+		}
+		else if (numbersArray % 5 === 0 && numbersArray % 3 != 0)  {
+			numbersArray = "Buzz";
+		}
+
+		console.log(numbersArray);
+	}
+	let result = " #";
+	let result2 = "# ";
+	counter = 1;
+
+	let newResult;
+</script>
+
