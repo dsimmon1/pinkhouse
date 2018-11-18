@@ -29,6 +29,14 @@
 	</ul>
 	</div>
 
+	<div class="c&g">
+		<p class="header">Claude the Gawd & Von G_Zus</p>
+		<ul>
+			<a href="https://www.instagram.com/claudeandvon/">
+			<li><i class="fab fa-instagram"></i> Instagram</li></a>
+		</ul>
+	</div>
+
 	<div class="peace-gang">
 		<p class="header">Peace Gang</p>
 		<ul>
@@ -76,6 +84,13 @@ body {
     font-family: 'Questrial', sans-serif;
 }
 
+body, html {
+	height: 100%;
+}
+
+.content-wrapper {
+height: 100%;
+}
 
 	img {
     width: 100%;
@@ -126,8 +141,11 @@ a:hover
   @media screen and (min-width: 1025px) {
 	.content-wrapper {
 		display: grid;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 1fr 2fr;
 	}
+	  .main-content {
+    align-self: center;
+}
   }
 
   @media screen and (max-width: 1024px) {
@@ -138,17 +156,19 @@ a:hover
   	.pink-house {
   		justify-self: center;
   	}
+
   }
 
-  @media screen and (min-width: 500px) {
+  @media screen and (min-width: 600px) {
 	.footer {
 		display: grid;
-		grid-template-columns: 50% 1fr 1fr;
+		grid-template-columns: 40% 1fr 1fr 1fr;
+		grid-column-gap: 5px;
 		align-items: center;
 	}
   }
 
-  @media screen and (max-width: 499px) {
+  @media screen and (max-width: 599px) {
   	body {
   		text-align: center;
   	}
@@ -188,4 +208,3 @@ a:hover
 
 	let newResult;
 </script>
-
